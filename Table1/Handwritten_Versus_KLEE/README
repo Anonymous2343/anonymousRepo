@@ -1,4 +1,0 @@
-These two helper scripts allow us to compare KLEE versus handwritten unit tests.
-
-llm4_klee_extractor.py requires eval_results.jsonl and a functions_log.jsonl, once executed it generates comparison_output.txt.
-collect_metric_from_cols.py requires the above script to be executed first, and computes average compile and pass ratios for KLEE and handwritten unit tests.
