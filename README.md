@@ -1,6 +1,6 @@
 # anonymousRepo
 AnonymousRepo
-Since developing and evaluating neural decompilers is an active research field, we plan to open-source the framework after acceptance.
+Since developing and evaluating neural decompilers is an active and highly competitiv research field, we plan to open-source the framework after acceptance.
 We ask the reviewers and PC for consent, but provide verifiable results.
 
 Please refer to the "Verifiability" Section 5.3.3.
