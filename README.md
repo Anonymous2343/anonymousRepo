@@ -32,7 +32,7 @@ There are 4 kind of files:
    Here "a" stands for ANGR, and "l" for LLM4Decompile.
 
    code_similarity.py:
-   This file takes edit_distances.txt as input, and run various code similarity metrices. Might require installing according python libraries.
+   This file takes function_logs.jsonl and edit_distances.txt as input, and runs various code similarity metrices. Might require installing according python libraries.
 
    
    
