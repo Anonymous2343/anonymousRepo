@@ -23,7 +23,16 @@ There are 4 kind of files:
    This file takes a local edit_distances.txt as input, and calculates various statistics.
 
    hamming_distance.py:
-   This script is a TK-inter based GUI, which takes two files per drag-and-drop as input. It calculates hamming distances, and yields information about mismatches with respect to compilability and pass flags.
+   This script is a TK-inter based GUI, which takes two function_logs.jsonl files per drag-and-drop as input. It calculates hamming distances, and yields information about mismatches with respect to compilability and pass flags.
+   Reviewers can most often use this script to get statistics.
+
+   Table 3 specific:
+   match_function_jsonl.py:
+   In Table 3 we evaluated for both decompilers more than 2500 functions. We noticed that not both function_logs.jsonl target the same functions troughoutly. Therefore, we execute first the match_functions_jsonl.py to get new cleaned *.jsonl files, which will contain the N=1500 functions addressed in the paper. After renaming for example edit_distances_a_O0.txt.cleaned -> edit_distances.txt and run Statistics.py, it will yield compile, pass ratio, and coverage information for this particular case.
+   Here "a" stands for ANGR, and "l" for LLM4Decompile.
+
+   code_similarity.py:
+   This file takes edit_distances.txt as input, and run various code similarity metrices. Might require installing according python libraries.
 
    
    
