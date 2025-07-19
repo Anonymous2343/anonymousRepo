@@ -15,8 +15,7 @@ There are 4 kind of files:
 1. function_logs.jsonl:
    This file contains N=116, N=380, and N>=1500 functions, their respective decompilation, and the compilability and pass flags. Statistics are always averaged over all functions.
 2. edit_distance.txt:
-   This file contains multiple columns, first and second column are compile and pass ratio, other columns are information about code similarity metrics, GCOV coverage and KLEE coverage.
-   Please use the according helper scripts to calculate statistics over other metrics.
+   This file contains multiple columns, first and second column are compile and pass flags, other columns are information about code similarity metrics, GCOV coverage and KLEE coverage.
 3. output.txt:
    Protocols each step that the framework has done. From source file and program collection to decompilation, and KLEE test generation.
 5. Statistics.py:
